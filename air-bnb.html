@@ -7,7 +7,7 @@
     <title>Code Challenge 3</title>
 </head>
 <body>
-    <div class="container mx-auto">
+    <div class="h-screen bg-blue-300">
         <div class="flex justiy-start">
             <img class="h-20 w-30" src="https://bigcleanswitch.org/wp-content/uploads/2019/08/airbnb-white-logo.jpg" alt="air bnb logo">
         </div>
@@ -23,23 +23,36 @@
                 <img class="h-10 w-10" src="https://www.mycustomer.com/sites/all/modules/custom/sm_pp_user_profile/img/default-user.png" alt="avatar">
         </div>
 
-        <div class="flex ">
-            <p class="font-bold">Location</p>
-                <p class="text-gray-400">Where are you going?</p>
-            <p class="font-bold">Check-In</p>
-                <p class="text-gray-400">Add dates</p>
-            <p class="font-bold">Check-out</p>
-                <p class="text-gray-400">Add dates</p>
-            <p class="font-bold">Guests</p>
-                <p class="text-gray-400">Add guests</p>
-            <img class="h-10 w-10" src="https://cdn3.iconfinder.com/data/icons/social-messaging-ui-color-line/245532/58-512.png" alt="mag glass">
+        <div class="flex justify-between bg-white bg-contain text-center py-5 rounded">
+            <div>
+                <p class="font-bold font-roboto">Location</p>
+                    <p class="text-gray-400">Where are you going?</p>
+            </div>
 
+            <div>
+                <p class="font-bold">Check-In</p>
+                    <p class="text-gray-400">Add dates</p>
+            </div>
+                
+            <div>
+                <p class="font-bold">Check-out</p>
+                    <p class="text-gray-400">Add dates</p>
+            </div>
+
+            <div>
+                <p class="font-bold">Guests</p>
+                    <p class="text-gray-400">Add guests</p>
+            </div>
+
+            <div>
+                <img class="h-10 w-10" src="https://cdn3.iconfinder.com/data/icons/social-messaging-ui-color-line/245532/58-512.png" alt="mag glass">
+            </div>
         </div>
 
         <div>
-            <h1>Go Near</h1>
-            <p>Settle in somewhere new. Discover stays to live, work, or just relax.</p>
-            <button>Explore nearby</button>
+            <h1 class="pt-10">Go Near</h1>
+            <p class="pb-5">Settle in somewhere new. Discover stays to live, work, or just relax.</p>
+            <button class="bg-white rounded px-3 py-1">Explore nearby</button>
 
 
         </div>
@@ -57,8 +70,10 @@
 
 
         </div>
-
+        <script src="tailwind.config.js"></script>
     </div>
     
 </body>
+
+
 </html>
